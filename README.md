@@ -27,12 +27,12 @@ So, in this problem, as you can see we are given a string with lowercase English
 
 If you read the problem again and look at the example carefully, you will realize that our main tasks for this problem are very small.
 
-**Our tasks include:-**
-**1)** Traversing the given string from the start.
-**2)** **If our character is either '(' or 'any alphabet'** , we will **store it** in some suitable data structure.
-**3)** The moment **we hit a closing bracket ')'.** We need to **get all the previous characters of the string until we hit the opening bracket.** With this, **we have the string between a pair of brackets.**
-Now all left is to **reverse this string and then join it with the characters before the opening bracket.**
-**4)** We will **perform tasks 2 and 3 until the end of the string.** In this way, we will reverse every string in a pair of the bracket, and at last, we will get the result.
+**Our tasks include:-** <br/>
+**1)** Traversing the given string from the start. <br/>
+**2)** **If our character is either '(' or 'any alphabet'** , we will **store it** in some suitable data structure. <br/>
+**3)** The moment **we hit a closing bracket ')'.** We need to **get all the previous characters of the string until we hit the opening bracket.** With this, **we have the string between a pair of brackets.** <br/>
+Now all left is to **reverse this string and then join it with the characters before the opening bracket.** <br/>
+**4)** We will **perform tasks 2 and 3 until the end of the string.** In this way, we will reverse every string in a pair of the bracket, and at last, we will get the result. <br/>
 
 Now, the **data structure that we will choose** to store the characters that we are iterating through, **should perform the push and pop function with best optimization.** It is **because we'll only be inserting and removing from the end.**
 
