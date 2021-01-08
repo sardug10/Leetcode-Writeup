@@ -13,9 +13,9 @@ Your result should not contain any brackets.
 
 **Example**
 
-> **Input**: s = "(ed(et(oc))el)"
-> **Output**: "leetcode"
-> **Explanation**: First, we reverse the substring "oc", then "etco", and finally, the whole string.
+> **Input**: s = "(ed(et(oc))el)" <br/>
+> **Output**: "leetcode" <br/>
+> **Explanation**: First, we reverse the substring "oc", then "etco", and finally, the whole string. <br/>
 
 ### Solution
 
